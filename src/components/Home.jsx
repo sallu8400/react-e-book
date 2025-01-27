@@ -23,7 +23,7 @@ const Layout = () => {
   return (
     <div className="flex flex-col h-screen">
       {/* Top Header */}
-      <header className="bg-gray-800 text-white p-4 fixed top-0 left-0 right-0 z-20 shadow-md">
+      <header className="bg-rose-800 text-white p-4 fixed  left-0 right-0 z-20 shadow-md   md:ml-[260px] ml-0" >
         <div className="flex items-center justify-between">
           <button
             className="md:hidden p-2"
@@ -38,6 +38,8 @@ const Layout = () => {
       <div className="flex flex-1 pt-16">
         {/* Sidebar */}
         <div
+
+          style={{ width: "260px" }}
           className={`fixed top-0 left-0 h-full bg-gray-800 text-white w-64 transform transition-transform duration-300 ease-in-out z-10 md:translate-x-0 ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"
             }`}
         >
