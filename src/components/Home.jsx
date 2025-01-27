@@ -44,7 +44,7 @@ const Sidebar = () => {
                     d="M3 10h11M9 21V3m4 4h5m0 0l-3 3m3-3l-3-3"
                   />
                 </svg>
-                <span className="ml-4">Dashboard</span>
+                <span className="ml-4">Dasoard</span>
               </a>
             </li>
             <li className="group">
